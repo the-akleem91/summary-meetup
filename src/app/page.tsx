@@ -1,9 +1,10 @@
-import Image from "next/image";
+import { CollaborativeApp } from "./components/CollaborativeApp";
+import { Room } from "./room";
 
-export default function Home() {
+export default function Page() {
   return (
-    <div>
-      Hello
- </div>
+    <Room>
+      <CollaborativeApp />
+    </Room>
   );
 }
